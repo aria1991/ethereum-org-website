@@ -13,4 +13,6 @@ module.exports = {
   },
   testURL: `http://localhost`,
   setupFiles: [`<rootDir>/loadershim.js`],
-}
+  testRegex: `(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$`,
+  moduleFileExtensions: ['js', 'jsx', 'json', 'node'],
+  }
